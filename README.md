@@ -11,6 +11,7 @@ How to test the application?
 5. You can see db url out as below
     <br/>Hello shyamfrom stage.com/stage
 6. Update db url at https://github.com/svadikari/spring-cloud-config-repo.git/myapp-stage.yml
-Refresh "http://localhost:8888/myapp/stage" to see updated configuration details
-Refresh "http://localhost:8081/?user=shyam", but you don't see the updated configuration as config-server is idempotent.
-Execute curl --request POST --location 'http://localhost:8081/actuator/refresh' --header 'Content-Type: application/json' and execute step#8
+7. Refresh "http://localhost:8888/myapp/stage" to see updated configuration details
+8. Refresh "http://localhost:8082/?user=shyam", but you don't see the updated configuration as config-server is idempotent.
+9. Execute curl --request POST --location 'http://localhost:8082/actuator/refresh' --header 'Content-Type: application/json'
+10. Execute step#8
