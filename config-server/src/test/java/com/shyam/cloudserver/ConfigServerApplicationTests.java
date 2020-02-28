@@ -1,4 +1,4 @@
-package com.shyam.cloudclient;
+package com.shyam.cloudserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
