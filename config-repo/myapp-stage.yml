@@ -1,0 +1,4 @@
+db:
+  uri: stage.com/stage
+  user: stage
+  password: pwd
